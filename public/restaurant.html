@@ -4,13 +4,42 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <style>
+        .img-container {
+            border: 3px inset green;
+            text-align: center;
+            position: relative /* Declared position allows for location changes */
+            top: -8px; /* Moves the image 2px closer to the top of the page */
+        }
+
+
+        h1 {
+            text-align: center;
+            border: 1px inset green;
+            font-family: "Allerta Stencil", Sans-serif;
+            -webkit-animation: glow 1s ease-in-out infinite alternate;
+            -moz-animation: glow 1s ease-in-out infinite alternate;
+            animation: glow 1s ease-in-out infinite alternate;
+
+        }
+
+        .img-container {
+            border: 3px inset green;
+
+            text-align: center;
+            position: relative /* Declared position allows for location changes */
+            top: -8px; /* Moves the image 2px closer to the top of the page */
+
+        }
+
+
 
         body{
             font-family: latha;
             color:white;
+            background: linear-gradient( rgba(0,0,0,0.65),rgba(0,0,0,0.65),rgba(0,0,0,0.38),rgba(0,0,0,0)
+            )
+            ,url(/images/hero.jpg)no-repeat;
             background: linear-gradient( rgba(0,0,0,0.65),rgba(0,0,0,0.65),rgba(0,0,0,0.38),rgba(0,0,0,0)
             )
             ,url(/images/hero.jpg)no-repeat;
@@ -54,12 +83,7 @@
             color:darkgray;
             font-weight: normal;
         }
-        .form-group row{
-            text-align: center;
-            text-transform: uppercase;
-            font-weight: normal;
-            margin: 40px auto;
-        }
+
         .wd h2{
             text-align: center;
             text-transform: uppercase;
@@ -69,75 +93,66 @@
 
         .opt form , input[type="button"]{
             background-color: black;
-            color:green;
+            color:white;
             padding:10px;
             margin:-14px auto;
             padding-left: 50px;
             padding-right: 50px;
             text-align: center;
         }
+        glow {
+            font-size: 80px;
+            color: #fff;
+            text-align: center;
+            -webkit-animation: glow 1s ease-in-out infinite alternate;
+            -moz-animation: glow 1s ease-in-out infinite alternate;
+            animation: glow 1s ease-in-out infinite alternate;
+        }
+
+        @-webkit-keyframes glow {
+            from {
+                text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+            }
+
+            to {
+                text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+            };
+
 
         form, input[type="button"]:hover{background-color: green;}
     </style>
+
 </head>
 <body>
-<div class="box">
 
+<div class="box">
     <ul type="none">
-        <li><a href="restaurant.html"> Home</a></li>
+        <li><a href="index.html"> Home</a></li>
         <li><a href="page2.html"> Menu</a></li>
         <li><a href="page3.html"> Reservation</a></li>
-        <li><a href="page4.html"> Feedback</a></li>
+        <li><a href="page4.html"> Feedback </a></li>
         <li><a href="page5.html"> Contact</a></li>
 
     </ul>
-    <br>
-    <br>
-    <br>
-    <br>
+
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<h1 class="glow"> Welcome to Abdu Restaurant!</h1>
+<div class="img-container"> <!-- Block parent element -->
+    <img src="/images/pic.jpg" alt="nice" width="800" height="600" >
+
 </div>
 
 
-<br> <br> <br> <br> <br> <br> <br> <br> <br>
-<div class="form-group row">
-    <label for="" class="col-2 col-form-label">First Name</label>
-    <div class="col-10">
-        <input class="form-control" type="Name" value="" id="">
-    </div>
-</div>
-<div class="form-group row">
-    <label for="" class="col-2 col-form-label">Last Name</label>
-    <div class="col-10">
-        <input class="form-control" type="Name" value="" id="">
-    </div>
-</div>
-<div class="form-group row">
-    <label for="example-email-input" class="col-2 col-form-label">Email</label>
-    <div class="col-10">
-        <input class="form-control" type="email" value="example@example.com" id="example-email-input">
-    </div>
-</div>
-<div class="form-group row">
-    <label for="example-tel-input" class="col-2 col-form-label">Telephone</label>
-    <div class="col-10">
-        <input class="form-control" type="tel" value="1-[888]-888-8888" id="example-tel-input">
-    </div>
-</div>
-
-<div class="form-group row">
-    <label for="example-datetime-local-input" class="col-2 col-form-label">Date and time</label>
-    <div class="col-10">
-        <input class="form-control" type="datetime-local" value="2011-08-19T13:45:00" id="example-datetime-local-input">
-    </div>
-</div>
 
 
-<div class="opt">
-    <form action="/action_page.php">
-        <input type="submit" value="Submit">
-    </form>
-</div>
 
-</div>
+
 </body>
 </html>

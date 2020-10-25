@@ -10,32 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="790353ed-40ac-448f-ad7f-b655df08fff4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Restaurant.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/bin_www.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/www" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/procfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/cool.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/hero.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/nice.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/page2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/page3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/page4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/page5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/error.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/index.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/layout.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/restaurant.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/procfile" beforeDir="false" afterPath="$PROJECT_DIR$/procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page2.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/page2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page3.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/page3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page4.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/page4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page5.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/page5.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603414428230</updated>
       <workItem from="1603414429864" duration="15213000" />
-      <workItem from="1603487187050" duration="23606000" />
+      <workItem from="1603487187050" duration="26897000" />
     </task>
     <servers />
   </component>

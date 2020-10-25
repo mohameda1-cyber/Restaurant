@@ -1,1 +1,1 @@
-web: node ./bin/wwwher
+web: node ./bin/www
