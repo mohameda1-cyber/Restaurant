@@ -10,6 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="790353ed-40ac-448f-ad7f-b655df08fff4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/calculation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/newcalc.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +31,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="88e800h8" />
   </component>
   <component name="ProjectId" id="1jFz3NYO9wkRgE1pcel1MNgTDls" />
   <component name="ProjectLevelVcsManager">
@@ -59,9 +64,9 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -74,7 +79,9 @@
       <option name="presentableId" value="Default" />
       <updated>1603414428230</updated>
       <workItem from="1603414429864" duration="15213000" />
-      <workItem from="1603487187050" duration="31376000" />
+      <workItem from="1603487187050" duration="37912000" />
+      <workItem from="1604197739818" duration="2145000" />
+      <workItem from="1604265137980" duration="8632000" />
     </task>
     <servers />
   </component>
@@ -93,22 +100,22 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="531" y="235" key="FileChooserDialogImpl/0.0.1500.960@0.0.1500.960" timestamp="1603491311037" />
-    <state width="1458" height="209" key="GridCell.Tab.0.bottom" timestamp="1603523539328">
+    <state width="1458" height="208" key="GridCell.Tab.0.bottom" timestamp="1603921031738">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="209" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1603523539328" />
-    <state width="1458" height="209" key="GridCell.Tab.0.center" timestamp="1603523539328">
+    <state width="1458" height="208" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1603921031738" />
+    <state width="1458" height="208" key="GridCell.Tab.0.center" timestamp="1603921031737">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="209" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1603523539328" />
-    <state width="1458" height="209" key="GridCell.Tab.0.left" timestamp="1603523539327">
+    <state width="1458" height="208" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1603921031737" />
+    <state width="1458" height="208" key="GridCell.Tab.0.left" timestamp="1603921031737">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="209" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1603523539327" />
-    <state width="1458" height="209" key="GridCell.Tab.0.right" timestamp="1603523539328">
+    <state width="1458" height="208" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1603921031737" />
+    <state width="1458" height="208" key="GridCell.Tab.0.right" timestamp="1603921031737">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="209" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1603523539328" />
+    <state width="1458" height="208" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1603921031737" />
     <state x="860" y="188" key="RollbackChangesDialog" timestamp="1603520710958">
       <screen x="0" y="0" width="1500" height="960" />
     </state>

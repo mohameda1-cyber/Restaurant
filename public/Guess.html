@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Abdu's Guessing Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        html {
+            font-family: sans-serif;
+        }
+
+        body {
+            width: 50%;
+            max-width: 600px;
+            min-width: 280px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+<h1>Guess the Number</h1>
+
+<div id="rangeForm">
+    <form class="form-inline" onsubmit="return false">
+        <div class="form-group">
+            <label for="start"> Start: </label>
+            <input type="number" class="form-control" id="start" required>
+        </div>
+        <div class="form-group">
+            <label for="end">End: </label>
+            <input type="number" class="form-control" id="end" required>
+        </div>
+        <button type="submit" class="btn btn-default" id="setRange">Set Range</button>
+    </form>
+</div>
+
+<p id="numberRange"></p>
+
+<div id="guessForm">
+    <form class="form-inline" onsubmit="return false">
+        <div class="form-group">
+            <label for="start"> Input your guess: </label>
+            <input type="number" class="form-control" id="guessField" required>
+        </div>
+        <button type="submit" class="btn btn-default" id="submitguess">Submit</button>
+    </form>
+</div>
+<script type="text/javascript">
+    var generated = 0;
+    var min = 0;
+    var max = 0;
+    var y = 0;
+    document.getElementById("setRange").onclick = function() {
+        min = Number(document.getElementById("start").value);
+        max = Number(document.getElementById("end").value);
+        generated = 1;
+        document.getElementById('rangeForm').style.display = 'none';
+        document.getElementById('numberRange').innerHTML = "A number was generated between " + min + " and " + max;
+        y = Math.floor(Math.random() * (max - min) + min);
+    }
+
+
+    var guess = 1;
+    document.getElementById("submitguess").onclick = function() {
+        if (generated != 1)
+            alert("Please put the Number Range first");
+        // number guessed by user
+        var x = document.getElementById("guessField").value;
+        if (x == y)
+            alert("CONGRATULATIONS You are right " + guess + " GUESS ");
+        else if (x > y)
+
+        {
+            guess++;
+            alert("TRY A SMALLER NUMBER \n YOU HAVE " + (4 - guess) + " GUESSES LEFT");
+        } else {
+            guess++;
+            alert("TRY A GREATER NUMBER \n YOU HAVE " + (4 - guess) + " GUESSES LEFT");
+        }
+    }
+</script>
+</body>
+
+</html>
